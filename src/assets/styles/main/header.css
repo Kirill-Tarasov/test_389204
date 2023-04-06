@@ -1,0 +1,22 @@
+header {
+    background-color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .targetCripto span {
+    color: #7e8299;
+    margin-left: 20px;
+  }
+  
+  .targetCripto.active span {
+    color: #7c71eb;
+  }
+  
